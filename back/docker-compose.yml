@@ -1,9 +1,9 @@
 version: "3.8"
 services:
-  book-store-db:
-    container_name: airbnb-db
-    image: mongo:4.4.6
+  app:
+    container_name: app
+    build: .
     ports:
-      - "27017:27017"
-    volumes:
-      - "./mongo-data:/data/db"
+      - "80:80"
+    env_file:
+      - .env

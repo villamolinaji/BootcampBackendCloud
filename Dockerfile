@@ -16,6 +16,8 @@ COPY ./back/package.json ./
 COPY ./back/package-lock.json ./
 RUN npm ci --only=production
 
+EXPOSE 80
+ENV PORT=80
 ENV NODE_ENV=production
 ENV STATIC_FILES_PATH=./public
 ENV API_MOCK=false

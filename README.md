@@ -1,7 +1,7 @@
 # BootcampBackendCloud
 Creada base de datos en Atlas y actualizada la variable de entorno.
-He crear seed-data.runner para insertar un nuevo registro de casa a partir de los datos mock.
+He actualizado las variables de entorno de la aplicación en AWS para que use la conexión a mongo en lugar de datos mock
 
 La aplicación está disponible en la siguiente ruta:
-* Listado de casas por país: https://despliegue-manual-mock.herokuapp.com/api/houses/country_code/ES
-* Detalles de una casa: https://despliegue-manual-mock.herokuapp.com/api/houses/1
+* Listado de casas por país: http://villamolinabootcampbackendlemoncodem-env.eba-ttd53pcd.eu-west-1.elasticbeanstalk.com/api/houses/country_code/PT
+* Detalles de una casa: http://villamolinabootcampbackendlemoncodem-env.eba-ttd53pcd.eu-west-1.elasticbeanstalk.com/api/houses/10006546

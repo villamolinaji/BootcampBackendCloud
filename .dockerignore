@@ -1,0 +1,9 @@
+back/node_modules
+back/dist
+back/mongo-data
+back/public
+back/.env
+back/.env.example
+back/.env.test
+back/.gitignore
+back/docker-compose.yml
